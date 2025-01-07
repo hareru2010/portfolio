@@ -289,3 +289,35 @@ a:hover {
     text-align: center;
     padding: 10px 0;
 }
+@media screen and (max-width: 767px) {
+    #header .site-title {
+        padding: 20px 16px;
+    }
+    #pickup {
+        flex-direction: column;
+        padding-top: 140px;
+    }
+    #pickup .article-title {
+        flex-direction: column;
+    }
+    #navi {
+        overflow-x: scroll;
+    }
+    #container {
+        flex-direction: column;
+    }
+    main {
+        width: 100%;
+    }
+    #sidebar {
+        width: 100%;
+        padding: 0;
+    }
+    #footer .content {
+        flex-direction: column;
+    }
+    #footer .item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    }
