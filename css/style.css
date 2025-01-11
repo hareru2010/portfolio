@@ -309,6 +309,10 @@ a:hover {
     main {
         width: 100%;
     }
+    main .text {
+        margin: 10px 0 15px 0;
+        padding: unset;
+    }
     #sidebar {
         width: 100%;
         padding: 0;
